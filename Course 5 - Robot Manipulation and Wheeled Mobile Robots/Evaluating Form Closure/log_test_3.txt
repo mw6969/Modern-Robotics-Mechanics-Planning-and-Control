@@ -1,0 +1,18 @@
+Matrix for form closure check:
+Contact 1: [2 3 0] - Normal: [1 0 0]
+Cross product for contact 1: [ 0  0 -3]
+Contact 2: [-2  3  0] - Normal: [0 1 0]
+Cross product for contact 2: [ 0  0 -2]
+Contact 3: [ 1 -1  0] - Normal: [1 1 0]
+Cross product for contact 3: [0 0 2]
+
+Matrix A:
+[[ 1.  0.  0.]
+ [ 0.  0. -3.]
+ [ 0.  1.  0.]
+ [ 0.  0. -2.]
+ [ 1.  1.  0.]
+ [ 0.  0.  2.]]
+Rank of matrix A: 3
+
+Test 3: Object is not in form closure.
