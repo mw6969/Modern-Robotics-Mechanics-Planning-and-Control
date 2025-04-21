@@ -1,0 +1,24 @@
+Test 1
+Masses data:
+StaticMass(m=2, x_pos=25, y_pos=35)
+StaticMass(m=5, x_pos=66, y_pos=42)
+Contacts data:
+Contact(body_a=1, body_b=0, x_contact=0, y_contact=0, normal_angle=1.5707963267948966, friction_coefficient=0.1)
+Contact(body_a=1, body_b=2, x_contact=60, y_contact=60, normal_angle=3.141592653589793, friction_coefficient=0.5)
+Contact(body_a=2, body_b=0, x_contact=72, y_contact=0, normal_angle=1.5707963267948966, friction_coefficient=0.5)
+Contact(body_a=2, body_b=0, x_contact=60, y_contact=0, normal_angle=1.5707963267948966, friction_coefficient=0.5)
+Result:
+The assembly would collapse
+
+Test 2
+Masses data:
+StaticMass(m=2, x_pos=25, y_pos=35)
+StaticMass(m=10, x_pos=66, y_pos=42)
+Contacts data:
+Contact(body_a=1, body_b=0, x_contact=0, y_contact=0, normal_angle=1.5707963267948966, friction_coefficient=0.5)
+Contact(body_a=1, body_b=2, x_contact=60, y_contact=60, normal_angle=3.141592653589793, friction_coefficient=0.5)
+Contact(body_a=2, body_b=0, x_contact=72, y_contact=0, normal_angle=1.5707963267948966, friction_coefficient=0.5)
+Contact(body_a=2, body_b=0, x_contact=60, y_contact=0, normal_angle=1.5707963267948966, friction_coefficient=0.5)
+Result:
+The assembly remains standing
+
